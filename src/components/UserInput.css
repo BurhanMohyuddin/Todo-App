@@ -1,0 +1,32 @@
+.btn {
+    outline: none;
+    box-shadow: none;
+    border-width: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    padding: 8px;
+  }
+  
+  .btn-primary {
+    color: rgba(108, 109, 109, 0.959);
+    border-color: rgba(108, 109, 109, 0.959);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  input {
+    width: 80%;
+    border: none;
+    border-top: 2px solid rgb(62, 106, 121);
+    border-bottom: 2px solid rgb(62, 106, 121);
+    margin-right: 10px;
+    padding: 5px;
+    line-height: 17px;
+  }
+  
+  input:focus {
+    outline: none;
+    border: none;
+    border-top: 2px solid rgba(108, 109, 109, 0.959);
+    border-bottom: 2px solid rgba(108, 109, 109, 0.959);
+  }
